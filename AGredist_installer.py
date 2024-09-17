@@ -232,6 +232,16 @@ EMBEDDED_REDISTS_JSON = """
 }
 """
 
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+    
 def is_admin():
     try:
         return ctypes.windll.shell32.IsUserAnAdmin()
@@ -293,7 +303,7 @@ class RedistInstallerGUI(QMainWindow):
         
         self.create_logo_button()
         
-        icon_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "icon.ico"))
+        icon_path = resource_path("icon.ico")
         if os.path.exists(icon_path):
             self.setWindowIcon(QIcon(icon_path))
         self.debug_timer = QTimer(self)
@@ -340,7 +350,12 @@ class RedistInstallerGUI(QMainWindow):
         self.logo_button.clicked.connect(self.on_logo_click)
 
         # Load and scale the image
-        pixmap = QPixmap("armgddn_logo.png")
+        logo_path = resource_path("armgddn_logo.png")
+        pixmap = QPixmap(logo_path)
+        if pixmap.isNull():
+            self.logger.error(f"Failed to load logo from {logo_path}")
+            return
+
         scaled_pixmap = pixmap.scaled(target_size, Qt.KeepAspectRatio, Qt.SmoothTransformation)
 
         # Set the scaled image as an icon
