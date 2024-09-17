@@ -9,10 +9,12 @@ Welcome to the ARMGDDN Games Redist Installer! Because why spend hours downloadi
 - A fancy GUI that makes clicking "Next" feel like a real accomplishment
 - Automatic detection of installed redistributables (we're psychic like that)
 - Multi-select functionality for when you're feeling extra productive
+- Now with more redists than ever! (Because apparently, there's always room for more)
 
 ## 🛠 Installation
 
 ### Release
+
 1. Run the damn .exe
 
 ### Python script
@@ -21,7 +23,7 @@ Welcome to the ARMGDDN Games Redist Installer! Because why spend hours downloadi
 2. Make sure you have Python installed (preferably a version that doesn't hate you)
 3. Install the required dependencies:
    ```
-   pip install PyQt5 requests appdirs
+   pip install -r requirements.txt
    ```
 4. Run the script:
    ```
@@ -34,24 +36,26 @@ Welcome to the ARMGDDN Games Redist Installer! Because why spend hours downloadi
 1. Launch the application (you've got this far, you can do it!)
 2. Choose your architecture (x86 for hipsters, x64 for everyone else)
 3. Select the redistributables you want to install
-4. Click "Install Selected" and prepare to be amazed
+4. Click "Install Selected", "Install All", or "Install Not Installed" and prepare to be amazed
 5. Marvel at the progress text as it fills you with a sense of accomplishment
 
 ## 🧙‍♂️ Developer Mode
 
-Think you're special? Try clicking the logo 10 times. We dare you.
+Think you're special? Try clicking the logo 10 times. We dare you. Now with added features:
+- Reset installation status (for when you want to pretend you never installed anything)
+- Redownload Redist JSON from GitHub (because who doesn't love fresh data?)
 
 ## 👽 Troubleshooting
 
 - If the installer doesn't work, try turning it off and on again
 - If that doesn't work, blame your antivirus
-- If youre antivirus isnt to blame its likely a PEBCAK error.
+- If your antivirus isn't to blame, it's likely a PEBCAK error
 - If all else fails, contact our support team (see below)
 
 ## 📞 Contact
 
 For questions, concerns, or existential crises:
-- ARMGDDN Games Telegram: [ARMGDDN Games Welcome and Support](https://t.me/ARMGDDNGames) // This is the prefered contact method, also we gots vidya game repacks
+- ARMGDDN Games Telegram: [ARMGDDN Games Welcome and Support](https://t.me/ARMGDDNGames) // This is the preferred contact method, also we gots vidya game repacks
   - Reddit: [u/DeliciousMeatPop](https://www.reddit.com/user/DeliciousMeatPop/)
   - Telegram: [@SickSoThr33](https://t.me/SickSoThr33)
   - Discord: [DeliciousMeatPop](https://discordapp.com/users/191105213808115712)
@@ -59,14 +63,14 @@ For questions, concerns, or existential crises:
 
 ## 📜 License
 
-This project is licensed under the "Do Whatever You Want, Just Don't Blame Us" License... AKA Mit License
+This project is licensed under the "Do Whatever You Want, Just Don't Blame Us" License... AKA MIT License
 
 ## 🙏 Acknowledgments
 
 - Thanks to Microsoft for making so many redistributables that we needed to create this tool
-- Shoutout to caffeine and cigarettes, the true hero behind this project
+- Shoutout to caffeine and cigarettes, the true heroes behind this project
 - Special thanks to you, for actually reading this README. You're the real MVP!
 
 Remember, with great power comes great responsibility. Use this installer wisely, and may your system be forever redistributable-complete!
 
-ALSO: Please feel free to contact me with more redists and links or just send a merge request
+ALSO: Please feel free to contact me with more redists and links or just send a merge request. The more, the merrier (and by merrier, we mean more stable and compatible)!
