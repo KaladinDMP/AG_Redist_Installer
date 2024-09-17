@@ -1,0 +1,220 @@
+{
+  "redistributables": {
+    "x86": [
+      {
+        "name": "Visual C++ 2005",
+        "version": "8.0.61001",
+        "online_url": "https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.exe",
+        "install_command": "/q"
+      },
+      {
+        "name": "Visual C++ 2008",
+        "version": "9.0.30729.6161",
+        "online_url": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe",
+        "install_command": "/qb"
+      },
+      {
+        "name": "Visual C++ 2010",
+        "version": "10.0.40219.325",
+        "online_url": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": "Visual C++ 2012",
+        "version": "11.0.61030.0",
+        "online_url": "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": "Visual C++ 2013",
+        "version": "12.0.40664.0",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/10912113/5da66ddebb0ad32ebd4b922fd82e8e25/vcredist_x86.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": "Visual C++ 2015-2022",
+        "version": "14.36.32532.0",
+        "online_url": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": ".NET Core 3.1 Runtime",
+        "version": "3.1",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/3f353d2c-0431-48c5-bdf6-fbbe8f901bb5/542a4af07c1df5136a98a1c2df6f3d62/windowsdesktop-runtime-3.1.32-win-x86.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET 6.0 Desktop Runtime",
+        "version": "6.0.33",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/8029cdb3-0f5f-4018-bff7-bacd9b9357f8/daf6c8b102a3bdfbbf235cfa0e46f901/windowsdesktop-runtime-6.0.33-win-x86.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET 8.0 Desktop Runtime",
+        "version": "8.0.8",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/bd1c2e28-44dd-47bb-a55c-aedd1f3e8cc4/0a15fac821e64cf7b8ec6d99e54e0997/windowsdesktop-runtime-8.0.8-win-x86.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET 9.0 Desktop Runtime",
+        "version": "9.0.0-rc.1",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/ad33dd90-1911-497e-87d9-f3506c17f87d/2c8aec980e150fa37a65b4bb115bfaf0/windowsdesktop-runtime-9.0.0-rc.1.24452.1-win-x86.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": "7-Zip",
+        "version": "24.08",
+        "online_url": "https://www.7-zip.org/a/7z2408.exe",
+        "install_command": "/S"
+      },
+      {
+        "name": "XNA Framework Redistributable 4.0",
+        "version": "4.0",
+        "online_url": "https://download.microsoft.com/download/A/C/2/AC2C903B-E6E8-42C2-9FD7-BEBAC362A930/xnafx40_redist.msi",
+        "install_command": "/quiet /norestart"
+      },
+      {
+        "name": "Microsoft Silverlight",
+        "version": "5.1.50918.0",
+        "online_url": "https://download.cnet.com/microsoft-silverlight/3001-2378_4-190345.html?dt=internalDownload",
+        "install_command": "/q"
+      }
+    ],
+    "x64": [
+      {
+        "name": "Visual C++ 2005",
+        "version": "8.0.61000",
+        "online_url": "https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.exe",
+        "install_command": "/q"
+      },
+      {
+        "name": "Visual C++ 2008",
+        "version": "9.0.30729.6161",
+        "online_url": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe",
+        "install_command": "/qb"
+      },
+      {
+        "name": "Visual C++ 2010",
+        "version": "10.0.40219.325",
+        "online_url": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": "Visual C++ 2012",
+        "version": "11.0.61030.0",
+        "online_url": "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": "Visual C++ 2013",
+        "version": "12.0.40664.0",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/10912041/cee5d6bca2ddbcd039da727bf4acb48a/vcredist_x64.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": "Visual C++ 2015-2022",
+        "version": "14.36.32532.0",
+        "online_url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+        "install_command": "/passive /norestart"
+      },
+      {
+        "name": ".NET Core 3.1 Runtime",
+        "version": "3.1",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/b92958c6-ae36-4efa-aafe-569fced953a5/1654639ef3b20eb576174c1cc200f33a/windowsdesktop-runtime-3.1.32-win-x64.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET Framework 4.7.2",
+        "version": "4.7.2",
+        "online_url": "https://go.microsoft.com/fwlink/?linkid=863265",
+        "install_command": "/install /quiet"
+      },
+      {
+        "name": ".NET Framework 4.8",
+        "version": "4.8",
+        "online_url": "https://go.microsoft.com/fwlink/?LinkId=2085155",
+        "install_command": "/install /quiet"
+      },
+      {
+        "name": ".NET 5.0 Runtime",
+        "version": "5.0",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/a0832b5a-6900-442b-af79-6ffddddd6ba4/e2df0b25dd851ee0b38a86947dd0e42e/dotnet-runtime-5.0.17-win-x64.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET 6.0 Desktop Runtime",
+        "version": "6.0.33",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/3ebc1f91-a5ba-477e-9353-198fa4e13371/35f447d6820b078fd18523764a4f0213/windowsdesktop-runtime-6.0.33-win-x64.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET 8.0 Desktop Runtime",
+        "version": "8.0.8",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/907765b0-2bf8-494e-93aa-5ef9553c5d68/a9308dc010617e6716c0e6abd53b05ce/windowsdesktop-runtime-8.0.8-win-x64.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET 9.0 Desktop Runtime",
+        "version": "9.0.0-rc.1",
+        "online_url": "https://download.visualstudio.microsoft.com/download/pr/42d0d927-a9fd-4466-85b9-a92881127771/ada1c6949c9e4a173284391d91add261/windowsdesktop-runtime-9.0.0-rc.1.24452.1-win-x64.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": "7-Zip",
+        "version": "24.08",
+        "online_url": "https://www.7-zip.org/a/7z2408-x64.exe",
+        "install_command": "/S"
+      },
+      {
+        "name": "XNA Framework Redistributable 4.0",
+        "version": "4.0",
+        "online_url": "https://download.microsoft.com/download/A/C/2/AC2C903B-E6E8-42C2-9FD7-BEBAC362A930/xnafx40_redist.msi",
+        "install_command": "/quiet /norestart"
+      },
+      {
+        "name": "Microsoft Silverlight",
+        "version": "5.1.50918.0",
+        "online_url": "https://download.cnet.com/microsoft-silverlight-64-bit/3001-2378_4-75884713.html?dt=internalDownload",
+        "install_command": "/q"
+      }
+    ],
+    "all": [
+      {
+        "name": "DirectX End-User Runtime",
+        "version": "9.29.1974.1",
+        "online_url": "https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe",
+        "install_command": "/Q"
+      },
+      {
+        "name": "OpenAL",
+        "version": "1.1",
+        "online_url": "https://www.dropbox.com/scl/fi/csltc4ueqqwgbp08dsufp/oalinst.exe?rlkey=eyi3z11fova7g85ki3ydkug17&st=3i46c0xi&dl=1",
+        "install_command": "/silent"
+      },
+      {
+        "name": ".NET Framework 3.5",
+        "version": "3.5",
+        "online_url": "https://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe",
+        "install_command": "/install /quiet /norestart"
+      },
+      {
+        "name": ".NET Framework 4.0",
+        "version": "4.0",
+        "online_url": "https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe",
+        "install_command": "/install /quiet"
+      },
+      {
+        "name": "Java Runtime Environment",
+        "version": "8u391",
+        "online_url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249553_4d245f941845490c91360409ecffb3b4",
+        "install_command": "/s"
+      },
+      {
+        "name": "PhysX System Software",
+        "version": "9.23.1019",
+        "online_url": "https://us.download.nvidia.com/Windows/9.23.1019/PhysX_9.23.1019_SystemSoftware.exe",
+        "install_command": "-s"
+      }
+    ]
+  }
+}
