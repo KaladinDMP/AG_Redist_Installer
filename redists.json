@@ -72,12 +72,6 @@
         "version": "4.0",
         "online_url": "https://download.microsoft.com/download/A/C/2/AC2C903B-E6E8-42C2-9FD7-BEBAC362A930/xnafx40_redist.msi",
         "install_command": "/quiet /norestart"
-      },
-      {
-        "name": "Microsoft Silverlight",
-        "version": "5.1.50918.0",
-        "online_url": "https://download.cnet.com/microsoft-silverlight/3001-2378_4-190345.html?dt=internalDownload",
-        "install_command": "/q"
       }
     ],
     "x64": [
@@ -170,12 +164,6 @@
         "version": "4.0",
         "online_url": "https://download.microsoft.com/download/A/C/2/AC2C903B-E6E8-42C2-9FD7-BEBAC362A930/xnafx40_redist.msi",
         "install_command": "/quiet /norestart"
-      },
-      {
-        "name": "Microsoft Silverlight",
-        "version": "5.1.50918.0",
-        "online_url": "https://download.cnet.com/microsoft-silverlight-64-bit/3001-2378_4-75884713.html?dt=internalDownload",
-        "install_command": "/q"
       }
     ],
     "all": [
