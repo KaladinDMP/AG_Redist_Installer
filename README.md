@@ -50,6 +50,7 @@ Think you're special? Try clicking the logo 10 times. We dare you. Now with adde
 - If the installer doesn't work, try turning it off and on again
 - If that doesn't work, blame your antivirus
 - If your antivirus isn't to blame, it's likely a PEBCAK error
+- If you get a weird error saying something is outdated or depreciated, try running ```for /F "skip=2 tokens=1" %i in ('pip list --outdated') do pip install --upgrade %i``` and update all your modules
 - If all else fails, contact our support team (see below)
 
 ## 📞 Contact
