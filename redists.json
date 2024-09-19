@@ -158,12 +158,6 @@
         "version": "24.08",
         "online_url": "https://www.7-zip.org/a/7z2408-x64.exe",
         "install_command": "/S"
-      },
-      {
-        "name": "XNA Framework Redistributable 4.0",
-        "version": "4.0",
-        "online_url": "https://download.microsoft.com/download/A/C/2/AC2C903B-E6E8-42C2-9FD7-BEBAC362A930/xnafx40_redist.msi",
-        "install_command": "/quiet /norestart"
       }
     ],
     "all": [
@@ -196,12 +190,6 @@
         "version": "8u391",
         "online_url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249553_4d245f941845490c91360409ecffb3b4",
         "install_command": "/s"
-      },
-      {
-        "name": "PhysX System Software",
-        "version": "9.23.1019",
-        "online_url": "https://us.download.nvidia.com/Windows/9.23.1019/PhysX_9.23.1019_SystemSoftware.exe",
-        "install_command": "-s"
       }
     ]
   }
